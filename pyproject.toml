@@ -1,0 +1,15 @@
+[project]
+name = "mcp-server-demo"
+version = "0.1.0"
+description = "First MCP server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]",
+    "fastmcp",
+    "langchain",
+    "langchain-community",
+    "langchain-google-genai",
+    "python-dotenv",
+    "google-generativeai",
+]
